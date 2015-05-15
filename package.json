@@ -1,6 +1,6 @@
 {
   "name": "plugin-ember-chbs",
-  "description": "SystemJS plugin for Ember Handlebars",
+  "description": "SystemJS plugin for loading pre-compiled Ember Handlebars templates",
   "version": "0.1.0",
   "keywords": [],
   "main": "plugin-ember-chbs.js",
