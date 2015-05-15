@@ -1,0 +1,25 @@
+{
+  "name": "plugin-ember-chbs",
+  "description": "SystemJS plugin for Ember Handlebars",
+  "version": "0.1.0",
+  "keywords": [],
+  "main": "plugin-ember-chbs.js",
+  "author": {
+    "name": "n-fuse GmbH",
+    "email": "info@n-fuse.de",
+    "url": "www.n-fuse.de"
+  },
+  "contributors": [],
+  "license": {
+    "type": "MIT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n-fuse/plugin-ember-chbs"
+  },
+  "jspm": {
+    "format": "es6",
+    "dependencies": {
+    }
+  }
+}
