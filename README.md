@@ -20,8 +20,6 @@ TODO
 
 TODO
 
-TODO
-
 ### License
 
 [MIT license](LICENSE.txt)
