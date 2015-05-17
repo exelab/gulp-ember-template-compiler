@@ -1,24 +1,36 @@
 # plugin-ember-chbs
 
-SystemJS plugin for Ember Handlebars.
+Gulp Plugin that compiles templates for Ember 1.12+
+An adapted version of this [plugin](https://github.com/Geodesigner/gulp-ember-template-compiler).
 
 ### Installation
 
 ```bash
-jspm install hbs=github:n-fuse/plugin-ember-chbs
+npm install n-fuse/gulp-ember-template-compiler#1.13.0-beta.1
 ```
+
+where 1.13.0-beta.1 is the Ember version to be used.
 
 ### Usage
 
-TODO
+```JavaScript
+var rename = require('gulp-ember-template-compiler');
 
-#### To Be Paired With Gulp
+gulp.task('templates', function() {
+  return gulp.src('app/**/*.hbs')
+    .pipe(compiler())
+    .pipe(rename(function(path) {
+      path.extname = '.hbs.js'
+    }))
+    .pipe(gulp.dest('app'));
+});
+```
 
-TODO
+#### Import a Compiled Template
 
-#### Import compiled template as variable
-
-TODO
+```JavaScript
+import tmp from './my-tmpl.hbs'
+```
 
 ### License
 

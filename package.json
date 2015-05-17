@@ -1,9 +1,9 @@
 {
-  "name": "plugin-ember-chbs",
-  "description": "SystemJS plugin for loading pre-compiled Ember Handlebars templates",
-  "version": "0.1.0",
+  "name": "gulp-ember-template-compiler",
+  "description": "Gulp Plugin that compiles templates for Ember 1.12+",
+  "version": "1.13.0-beta.1",
   "keywords": [],
-  "main": "plugin-ember-chbs.js",
+  "main": "index.js",
   "author": {
     "name": "n-fuse GmbH",
     "email": "info@n-fuse.de",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/n-fuse/plugin-ember-chbs"
+    "url": "git://github.com/n-fuse/gulp-ember-template-compiler"
   },
-  "jspm": {
-    "format": "es6",
-    "dependencies": {
-    }
+  "devDependencies": {
+    "ember-template-compiler": "git://github.com/n-fuse/ember-template-compiler#1.13.0-beta.1",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
   }
 }
