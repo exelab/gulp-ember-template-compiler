@@ -1,4 +1,4 @@
-# plugin-ember-chbs
+# gulp-ember-template-compiler
 
 Gulp Plugin that compiles templates for Ember 1.12+
 An adapted version of this [plugin](https://github.com/Geodesigner/gulp-ember-template-compiler).
