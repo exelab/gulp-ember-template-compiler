@@ -14,7 +14,7 @@ where 1.13.0-beta.1 is the Ember version to be used.
 ### Usage
 
 ```JavaScript
-var rename = require('gulp-ember-template-compiler');
+var rename = require('gulp-rename');
 
 gulp.task('templates', function() {
   return gulp.src('app/**/*.hbs')

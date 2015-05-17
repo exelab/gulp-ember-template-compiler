@@ -18,7 +18,7 @@
     "url": "git://github.com/n-fuse/gulp-ember-template-compiler"
   },
   "devDependencies": {
-    "ember-template-compiler": "git://github.com/n-fuse/ember-template-compiler#1.13.0-beta.1",
+    "ember-template-compiler": "git://github.com/n-fuse/ember-template-compiler#v1.13.0-beta.1",
     "gulp-util": "^3.0.4",
     "through2": "^0.6.5"
   }
