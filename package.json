@@ -1,7 +1,7 @@
 {
   "name": "gulp-ember-template-compiler",
   "description": "Gulp Plugin that compiles templates for Ember 1.12+",
-  "version": "1.12.0",
+  "version": "1.13.2",
   "keywords": [],
   "main": "index.js",
   "author": {
@@ -18,7 +18,7 @@
     "url": "git://github.com/n-fuse/gulp-ember-template-compiler"
   },
   "dependencies": {
-    "ember-template-compiler": "git://github.com/n-fuse/ember-template-compiler#v1.12.0",
+    "ember-template-compiler": "git://github.com/n-fuse/ember-template-compiler#v1.13.2",
     "gulp-util": "^3.0.4",
     "through2": "^0.6.5"
   }
