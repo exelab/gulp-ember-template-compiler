@@ -21,9 +21,9 @@ function templateCompiler() {
       var fileName = n === 0 ? file.relative : file.relative.slice(0, -n);
       var compilerOutput = compiler.precompile(file.contents.toString(), false);
 
-      file.contents = new Buffer(['import Ember from "ember";',
+      file.contents = new Buffer(['',
         '\n',
-        'export default Ember.HTMLBars.template(',
+        'Ember.TEMPLATES[\'' + fileName + '\'] =  Ember.HTMLBars.template(',
           compilerOutput,
         ');'].join(''));
     }
